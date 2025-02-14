@@ -1,16 +1,14 @@
 env:
   # Get these values from the Firebase console
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
-    value: AIzaSyBZg3WyjXoA8xI51KA1jtJmkfe8E4FTKBU
+    secret: apiKey
   - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-    value: fir-demo-a5cd5.firebaseapp.com
+    secret: authDomain
   - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
-    value: fir-demo-a5cd5
+    secret: projectId
   - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-    value: fir-demo-a5cd5.firebasestorage.app
+    secret: storageBucket
   - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-    value: 624234484803
+    secret: messagingSenderId
   - variable: NEXT_PUBLIC_FIREBASE_APP_ID
-    value: 1:624234484803:web:8ee63cee961953c619f0f6
-
-    
+    secret: appId
